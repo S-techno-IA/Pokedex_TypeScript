@@ -1,3 +1,4 @@
+import "./PokemonCard.css";
 const pokemonList = [
   {
     name: "bulbasaur",
@@ -20,7 +21,7 @@ interface PokemonCardProps {
 
 function PokemonCard({ pokemon }: PokemonCardProps) {
   return (
-    <figure>
+    <figure className={`pokemon-card ${pokemon.name}`}>
       {pokemon.imgSrc != null ? (
         <img src={pokemon.imgSrc} alt={pokemon.name} />
       ) : (

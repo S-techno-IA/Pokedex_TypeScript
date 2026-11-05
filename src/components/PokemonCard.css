@@ -1,0 +1,46 @@
+.pokemon-card {
+  background-color: #93e9be;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style général de la carte */
+.pokemon-card {
+  border: 5px solid;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style spécifique pour Bulbizarre */
+.pokemon-card.bulbasaur {
+  border-color: #93e9be;
+  /* Vert */
+}
+
+/* Style spécifique pour Salamèche (charmander) */
+.pokemon-card.charmander {
+  border-color: #ffa07a;
+  /* Orange */
+}
+
+/* Style spécifique pour Carapuce (squirtle) */
+.pokemon-card.squirtle {
+  border-color: #87ceeb;
+  /* Bleu */
+}
+
+.pokemon-card img {
+  width: 100%;
+  /* L'image prend toute la largeur disponible de la carte */
+  max-width: 100%;
+  /* Empêche l'image de dépasser */
+  height: auto;
+  /* Garde les proportions d'origine pour ne pas déformer le Pokémon */
+}
